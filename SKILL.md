@@ -17,6 +17,12 @@ Read its existing SEO, content and privacy rules. Determine which pages should b
 indexed and which must remain excluded. Reuse existing measurements and evidence;
 ask only for information that materially prevents the requested work.
 
+Resolve this skill's source directory, including any installation symlink, before
+running its inspector. Work in the selected product's workspace; use the tool's
+absolute path so it also works when the current directory is a different repo.
+If a product spans repositories, identify the owner of each affected page or
+configuration and apply changes in that owner, not in this skill checkout.
+
 For a multi-product request, use the same inspection method for each product and
 compare confirmed issues, relevance to its goals and effort. Keep product-specific
 findings and implementation in the owning workspace. Do not invent a central

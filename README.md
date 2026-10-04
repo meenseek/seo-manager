@@ -28,6 +28,25 @@ with `git pull --ff-only` when it has no local changes; the link needs no reinst
 Remove only the skill link to uninstall; the checkout remains intact. Other agents
 can read the same skill and references directly.
 
+## Apply to a product
+
+Use the same installed skill from the product's workspace; do not copy it into
+each product. Give the agent the target repository or site and the allowed work:
+
+- `$seo-manager Audit this site's public pages. Report confirmed issues before making changes.`
+- `$seo-manager Fix the confirmed canonical issue in this product and run its required checks.`
+- `$seo-manager Compare SEO issues across these named products and keep each result with its owner.`
+
+Read the selected product's local rules before choosing pages or changing files.
+Authenticated pages, private user data and deliberately excluded pages retain
+their product-owned boundaries. A product can span multiple repositories; keep
+each change with the repository that owns the affected behavior.
+
+An existing work coordinator can read this repository's `SKILL.md` and use the
+same inspector while retaining the selected product and authorization. Register
+connections in that coordinator; this public repository keeps no product list,
+campaign inventory or credentials. For direct use, no coordinator is required.
+
 ## Inspect a saved response
 
 Requires Python 3.11+ and no third-party packages. Capture a public page that is
