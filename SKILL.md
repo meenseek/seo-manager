@@ -38,7 +38,7 @@ customer or campaign inventory in this repository.
 - Search intent, content planning, refresh or AI-search visibility: read
   [content-search.md](references/content-search.md).
 - A product targeting Naver search: read [naver.md](references/naver.md).
-- Baseline, outcome comparison or follow-up: read
+- Analytics setup or troubleshooting, baseline, outcome comparison or follow-up: read
   [measurement.md](references/measurement.md).
 
 Load only the needed references. Check platform-dependent advice against current
